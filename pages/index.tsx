@@ -30,25 +30,25 @@ const Home: NextPage = () => {
           <b>
             {" "}
             <a
-              href="https://thirdweb.com/"
+              href="https://thirdwebmarketplace.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.purple}
             >
-              thirdweb
+             Mariemmarketplace
             </a>
           </b>{" "}
-          to list your ERC721 and ERC1155 tokens for auction or for direct sale.
+         
         </p>
 
         <hr className={styles.divider} />
 
         <div style={{ marginTop: 32, marginBottom: 32 }}>
-          <Link href="/create">
+         {/**  <Link href="/create">
             <a className={styles.mainButton} style={{ textDecoration: "none" }}>
               Create A Listing
             </a>
-          </Link>
+  </Link>*/} 
         </div>
 
         <div className="main">
