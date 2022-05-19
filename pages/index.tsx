@@ -24,20 +24,12 @@ const Home: NextPage = () => {
       {/* Content */}
       <div className={styles.container}>
         {/* Top Section */}
-        <h1 className={styles.h1}>NFT Marketplace w/ thirdweb + Next.JS</h1>
+        <h1 className={styles.h1}>NFT Marketplace </h1>
         <p className={styles.explain}>
-          Build an NFT marketplace using{" "}
-          <b>
-            {" "}
-            <a
-              href="https://thirdwebmarketplace.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.purple}
-            >
-             Mariemmarketplace
-            </a>
-          </b>{" "}
+        Découvrir les collections les plus haut de gamme, uniques et exclusives de NFT
+          
+           
+            
          
         </p>
 
